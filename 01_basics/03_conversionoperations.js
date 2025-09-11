@@ -30,8 +30,18 @@
 //  onsole.log(typeof stringNumber);
 
  let boolean = true 
- onsole.log(typeof boolean)
+ console.log(typeof boolean)
+
  let stringBoolean = String(boolean)
- onsole.log(stringBoolean)
-  onsole.log(typeof stringBoolean)
- 
+ console.log(stringBoolean)
+ console.log(typeof stringBoolean)
+
+
+
+  let someName = "Akshat"
+  console.log(typeof someName);
+
+  let sNumber = Number(someName)
+  console.log(typeof sNumber)
+  console.log(sNumber)
+  
