@@ -31,6 +31,26 @@ let gotCharacters = ["jon snow", "tyrion lanister", "robb stark", "Khalessi"]
 let myFunction = function (){
    console.log("Hello world") 
 }
-myFunction();
+//myFunction();
    
+// primitive datatypes = stack memory it creates a copy instead of referring to the original value
+
+let myName = "Akshat Ghadigaonkar"
+let anotherName = myName
+anotherName = "Atharv Ghadigaonkar"
+console.log(myName)
+console.log(anotherName)
+
+// Non primitive datatypes = Heap memory, it refers to the original value any changes made on other variables will affect and overlap the previous value
+
+let user1 = {
+    name: "Akshat",
+    email: "ak12@gmail.com"
+}
+
+let user2 = user1
+
+user2.email = "ath12@gmail.com"
+console.log(user1.email)
+console.log(user2.email)
 
